@@ -8,7 +8,8 @@ const StyledHeader = styled.header`
 
     padding:0.75em;
   */
-    background-color: #282c34;
+    text-shadow:0.1em 0.1em 0.2em #000;
+    background-color: #232c34;
   display: flex;
   flex-direction: column;
   align-items: center;

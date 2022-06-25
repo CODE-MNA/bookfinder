@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 export const StyledButton = styled.button`
-height:2em;
-font-size:1.6rem;
+color: #446;
+padding: 0.5em;
+font-size:1.4rem;
 background-color: #eef;
 border-radius: 0.2em;
 margin: 1em;
 transition: all 0.1s ease;
+cursor: pointer;
 
 :hover{
     transition: all 0.2s ease;
@@ -18,7 +20,7 @@ transition: all 0.1s ease;
 `
 export const GapContainer = styled.div`
 box-shadow: 0px 0px 4px #000;
-background-color: #ccc;
+background-color:#66716f;
 opacity: 0;
 border-top: solid 1px black;
 position: fixed;

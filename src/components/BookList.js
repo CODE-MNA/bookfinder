@@ -14,9 +14,10 @@ const End = styled.div`
 
 const StyledList = styled.div`
     display:flex;
-    gap: 1em;
+    gap: 2em;
+    row-gap:4em;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
     margin-top:1em;
     padding-bottom:9em;
     

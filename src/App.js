@@ -45,23 +45,16 @@ function App() {
 
   const [loading, setLoading] = useState(false)
 
-  // useEffect(() => {
-  //   first
-  
  
-  // }, [state.results])
-  
-
 
   const SearchFromMockData = (text)=>{
     setState(prevState => {return{...prevState,results: mockData.filter(book => book.title.toLowerCase().includes(text.toLowerCase()))}})
  }
 
  const SearchFromApi = async (text)=>{
-
     setLoading(true)
 
-    const request = axios.get(baseUrl + `/volumes?q=${text}&maxResults=40&printType=books&key=AIzaSyAfb68Dbt-dVpBkDuFqK5ACGEzo1l_hxh8&fields=items(id,volumeInfo(title,authors,description,publishedDate,imageLinks,previewLink))&orderBy=relevance`)
+    const request = axios.get(baseUrl + `/volumes?q=${text}&maxResults=40&printType=books&fields=items(id,volumeInfo(title,authors,description,publishedDate,imageLinks,previewLink))&orderBy=relevance`)
     request.then(res => {
       const booksData = res.data.items;
    
