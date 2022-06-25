@@ -14,7 +14,7 @@ const theme = {
 const mockData = [
   {
   title:"Crime and Punishment",
-  author:"Fyodor"
+  author:"Fyodor Dostoyevsky"
   },
   {
     title:"No Longer Human",
@@ -22,15 +22,15 @@ const mockData = [
     },
   {
       title:"Attack on Titan",
-      author:"Isayama"
+      author:"Hajime Isayama"
   },
   {
-    title:"The Story of Az",
-    author:"Noman"
+    title:"Goosebumps",
+    author:"R.L. Stine"
   },
   {
-    title:"Sed lyfe adil",
-    author:"Az"
+    title:"Sherlock Holmes",
+    author:"Arthur Conan Doyle"
   }
 ]
 
