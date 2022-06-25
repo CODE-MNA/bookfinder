@@ -3,11 +3,7 @@ import styled from 'styled-components'
 
 
 const StyledHeader = styled.header`
-    /* background-color: ${(props)=>props.theme.bg};
-    color: ${(props)=>props.theme.mainColor};
-
-    padding:0.75em;
-  */
+   
     text-shadow:0.1em 0.1em 0.2em #000;
     background-color: #232c34;
   display: flex;
